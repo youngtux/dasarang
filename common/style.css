@@ -1,0 +1,186 @@
+/* CSS Document */
+
+body
+{
+	scrollbar-face-color: #DDDDDD; scrollbar-shadow-color: #FFFFFF;
+    scrollbar-highlight-color: #FFFFFF; scrollbar-3dlight-color: #CCCCCC;
+    scrollbar-darkshadow-color: #CCCCCC; scrollbar-track-color: #F5F5F5;
+    scrollbar-arrow-color: #666666;
+    background-color:#FFFFFF;
+    margin:0px
+}
+
+.side_button {
+	  border-radius: 10% 30% 50% 70%;
+    background-color: #6A5ACD;
+    border: none;
+    color: white;
+    padding: 6px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+		width: 180px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+		opacity: 0.7;
+		margin-bottom: 3px;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #FF8C00;
+		opacity: 1;
+}
+
+.button {
+	border-radius: 50% 20% / 10% 40%;
+  background-color: #8B008B;
+  border: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.5;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+	animation: swing;
+	animation-duration: 2.3s
+}
+
+.button:hover {
+	opacity: 1;
+}
+
+td {font-size:12px; font-family:"�뗭�"; color:#666666; line-heigh:150%;}
+
+/*  **********************************  怨듯넻 **********************************  */
+
+/* �ㅺ낸 諛� back*/
+A{color: #666666 ;text-decoration: none;text-align:center}
+A:link{color: #666666 ;text-decoration: none;text-align:center}
+A:visited {color: #666666;text-decoration: none;text-align:center}
+A:active {color: #ff6000;text-decoration: none;text-align:center}
+A:hover {color: #ff6000;text-decoration: none;text-align:center}
+
+img {border: none;}
+
+/* ���됲듃諛뺤뒪 �붿옄�� 蹂��� */
+.select { behavior:url('../../css/selectbox.htc'); }
+input {border: 1px solid 1px #cccccc; background-color:#ffffff; font-size:12px; color:#666666; height:18px; font-family:"�뗭�"; ime-mode:"active"}
+
+
+table.contents_area{vertical-align:top; width:900px;}
+
+
+.tbl_title{width:100%; background:url(../images/community/list_title_bg.gif);color:#FFFFFF;font-weight:bold; font-size: 11px; font-family:"�뗭�"; margin-bottom:10px;}
+.tbl_title th  {color:#FFFFFF;font-weight:bold;height:27px;text-align:center; font-size: 11px; font-family:"�뗭�"}
+.tbl_title td  {color: #FFFFFF; text-decoration: none; font-family:"�뗭�"; font-size: 11px;  text-align:left; padding-left:10px;}
+
+/******* View *******/
+table.tbl_board {width:100%; text-align:left; color:#777777; font-size:11px; font-family:�뗭�; border-top:1px solid #d5d5d5; border-collapse:collapse;}
+table.tbl_board th {font-size:11px; color:#382375; background-color:#eae9f5; text-align:center; padding-top:5px; font-weight:bold; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5;}
+table.tbl_board td.front {font-size:11px; padding:5px 5px 4px 5px; border-bottom:1px solid #d5d5d5; border-right:1px solid #d5d5d5; line-height:16px;}
+table.tbl_board td.back {font-size:11px; padding:5px 5px 4px 5px; border-bottom:1px solid #d5d5d5; line-height:16px;}
+table.tbl_board td.view {font-size:11px; border-bottom:1px solid #d5d5d5; padding:10 15 5 15; text-align: justify; line-height:16px;}
+table.tbl_board td.photo {font-size:11px; padding:25px 0px 25px 0px; text-align:center; border-bottom:1px solid #d5d5d5; line-height:16px;}
+table.tbl_board input {font-size:11px;  height:18px;background:#ffffff; border:1px solid #cccccc; padding:0px 0px 0px 3px;}
+table.tbl_board textarea {font-size:11px; line-height:16px;background:#ffffff; border: 1px solid 1px #cccccc; padding:0px 0 0 3px;}
+table.tbl_board select{font-family:dotum; font-size:11px; color:#ddd; color:#606060;}
+table.tbl_board input.radio {height: 15px; width: 11px;border-style: none ;background-color:transparent;}
+table.tbl_board input.check {height: 15px; width: 11px;border-style: none ;background-color:transparent;}
+
+/******* View *******/
+table.join_board {width:100%; text-align:left; color:#777777; font-size:11px; font-family:�뗭�; border-top:1px solid #cad9eb; border-collapse:collapse;}
+table.join_board th {font-size:11px; color:#234f75; background-color:#e9eff5; padding-top:5px; padding-left:20px;font-weight:bold; border-bottom:1px solid #cad9eb; border-right:1px solid #cad9eb;}
+table.join_board td.field {font-size:11px; padding:5px 5px 4px 5px; border-bottom:1px solid #cad9eb; line-height:16px;}
+table.join_board td.view {font-size:11px; border-bottom:1px solid #cad9eb; padding:10 15 5 15; text-align: justify; line-height:16px;}
+table.join_board input {font-size:11px;  height:18px;background:#ffffff; border:1px solid #cccccc; padding:0px 0px 0px 3px;}
+table.join_board textarea {font-size:11px; line-height:16px;background:#ffffff; border: 1px solid 1px #cccccc; padding:0px 0 0 3px;}
+table.join_board input.radio {height: 15px; width: 11px;border-style: none ;background-color:transparent;}
+table.join_board input.check {height: 15px; width: 11px;border-style: none ;background-color:transparent;}
+
+
+/*************由ы뵆*************/
+.reply_title {font-family:"�뗭�";color:4e4e4e; height:25px; font-size: 11px; font-weight:bold; padding:7 0 5 0;}
+.reply {font-family:"�뗭�";color:#777777; font-size: 11px; padding-top:2px;}
+
+
+
+
+.list {width:100%; text-align: center; font-size:11px; font-family:�뗭�; margin-bottom:15px;}
+.list th  {background:url(../images/community/list_title_bg.gif);color:#ffffff;font-weight:bold;height:27px;text-align:center;font-size: 11px; font-family:"�뗭�"}
+.list td  {padding-top:3px; color: #777777; height:27px; text-decoration: none; font-family:"�뗭�"; font-size: 11px; border-bottom: solid 1px #dbdbdb;}
+.list td A:link    		{font-size: 11px; color: #777777; text-decoration: none; font-family:"�뗭�"}
+.list td A:visited		{font-size: 11px; color: #777777; text-decoration: none; font-family:"�뗭�"}
+.list td A:active  		{font-size: 11px; color: #266ba7; text-decoration: none; font-family:"�뗭�"}
+.list td A:hover		{font-size: 11px; color: #266ba7; text-decoration: none; font-family:"�뗭�"}
+
+.list td.txt_left  {font-family:�뗭�; font-size: 11px; color:#777777; padding:3px 5px 0px 10px;border-bottom: solid 1px #dbdbdb; text-align:left;}
+.list td.txt_left  A:link    		{font-size: 11px; color: #777777; text-decoration: none; font-family:"�뗭�"}
+.list td.txt_left  A:visited		{font-size: 11px; color: #777777; text-decoration: none; font-family:"�뗭�"}
+.list td.txt_left  A:active  		{font-size: 11px; color: #ff6600; text-decoration: none; font-family:"�뗭�"}
+.list td.txt_left  A:hover			{font-size: 11px; color: #ff6600; text-decoration: none; font-family:"�뗭�"}
+
+.list td.txt  {color:#777777; padding:5px 5px 5px 10px;border-bottom: solid 1px #dbdbdb; text-align:left; line-height:16px;}
+.list td.txt  A:link    		{font-size: 11px; color: #777777; text-decoration: none; font-family:"�뗭�"}
+.list td.txt  A:visited		{font-size: 11px; color: #777777; text-decoration: none; font-family:"�뗭�"}
+.list td.txt  A:active  		{font-size: 11px; color: #266ba7; text-decoration: none; font-family:"�뗭�"}
+.list td.txt  A:hover			{font-size: 11px; color: #266ba7; text-decoration: none; font-family:"�뗭�"}
+
+
+
+
+/************* 由ъ뒪�몄뿉 �곗씠��媛� �녿뒗寃쎌슦 *************/
+.no_data { height:35px; text-align:center ;color:#535353}
+
+
+/************* 由ъ뒪�명븯�� 踰덊샇�곸뿭 *************/
+/* Move Page Text */
+.ftmvpage { font-family:"�뗭�", "Arial"; font-size:9pt; color:#777777; ; padding-left: 6px; padding-right: 6px; padding-top: 1px}
+.ftmvpage A:link  {font-size:12px; color: #777777; text-decoration: none; font-family:"�뗭�" }
+.ftmvpage A:visited 	{font-size:12px; color: #777777; text-decoration: none; font-family:"�뗭�" }
+.ftmvpage A:active	{font-size:12px; color: #ff6000; text-decoration: none; font-family: "�뗭�" }
+.ftmvpage A:hover  	{font-size:12px; color: #ff6000; text-decoration: none; font-family:"�뗭�" }
+
+/* Now Page Text */
+.ftnwpage { font-family:"�뗭�", "Arial"; font-size:9pt; color:#777777; font-weight:bold; }
+.ftnwpage A:link  {font-size:12px; color: #777777; text-decoration: none; font-family:"�뗭�" }
+.ftnwpage A:visited 	{font-size:12px; color: #777777; text-decoration: none; font-family:"�뗭�" }
+.ftnwpage A:active	{font-size:12px; color: #ff6000; text-decoration: none; font-family: "�뗭�" }
+.ftnwpage A:hover  	{font-size:12px; color: #ff6000; text-decoration: none; font-family:"�뗭�" }
+
+
+
+
+
+/*** �고듃 �ㅽ���**************************/
+.le{ letter-spacing:-1px;}
+.fDoGray1 {font-family: "�뗭�";font-size: 11px;color: #666666;text-decoration: none; line-height: 16px; text-align:justify;}
+.fDoGray2 {font-family: "�뗭�";font-size: 11px;color: #777777;text-decoration: none;}
+
+
+
+.faq {font-size:11px; color: #777777; line-height: 14px; text-align:justify;  padding-right:20px; font-family:"�뗭�"}
+
+/*怨듭��ы빆*/
+.notice{font-size:11px; color: #888888;height:18px; font-family:"�뗭�"}
+
+.tbl_text{font-size:11px; color: #888888; line-height: 16px; text-align:justify;  padding-right:10px; font-family:"�뗭�"; letter-spacing:-1;}
+
+
+
+/******* popup *******/
+table.pop_board {width:100%; text-align:left; color:#777777; font-size:11px; font-family:�뗭�; border-top:1px solid #cad9eb; border-collapse:collapse;}
+table.pop_board th.pop {font-size:11px; color:#234f75; background-color:#e9eff5; padding-top:7px; padding-bottom:4px; text-align:center; font-weight:bold; border-bottom:1px solid #cad9eb; border-right:1px solid #cad9eb;}
+table.pop_board th.pop_rt {font-size:11px; color:#234f75; background-color:#e9eff5; padding-top:7px; padding-bottom:4px; text-align:center; font-weight:bold; border-bottom:1px solid #cad9eb;}
+table.pop_board td.pop_left {font-size:11px; padding:5px 0px 4px 0px; border-right:1px solid #cad9eb; text-align:center; border-bottom:1px solid #cad9eb; line-height:16px;}
+table.pop_board td.pop_field {font-size:11px; padding:5px 10px 4px 10px; border-bottom:1px solid #cad9eb; line-height:16px;}
