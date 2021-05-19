@@ -1,5 +1,6 @@
 /* CSS Document */
 
+
 body
 {
 	scrollbar-face-color: #DDDDDD; scrollbar-shadow-color: #FFFFFF;
@@ -8,6 +9,16 @@ body
     scrollbar-arrow-color: #666666;
     background-color:#FFFFFF;
     margin:0px
+}
+
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+	.footer {
+		display: relative;
+	}
 }
 
 .side_button {
