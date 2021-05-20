@@ -1,0 +1,32 @@
+<table border="0" cellspacing="0" cellpadding="0">
+<tr>
+   <td height="70"></td>
+</tr>
+<tr>
+  <td><a href="javascript:void(0);" onclick="callFunction(this);" attr="page_4_1.html">
+    <button class="side_button button2">노인기본정보</button></a></td>
+</tr>
+<tr>
+  <td><a href="javascript:void(0);" onclick="callFunction(this);" attr="page_4_2.html">
+    <button class="side_button button2">노인복지시책</button></a></td>
+</tr>
+<tr>
+  <td><a href="javascript:void(0);" onclick="callFunction(this);" attr="page_4_3.html">
+    <button class="side_button button2">노인복지시설</button></a></td>
+</tr>
+<tr>
+  <td><a href="javascript:void(0);" onclick="callFunction(this);" attr="page_4_4.html">
+    <button class="side_button button2">노인건강</button></a></td>
+</tr>
+
+</table>
+
+
+<script>
+  // 현재 클릭한 a tag
+  function callFunction(obj) {
+      var m_name = $(obj).attr('attr');
+      $(".main_content").empty();
+      $(".main_content").load(m_name);
+  }
+</script>

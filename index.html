@@ -3,11 +3,15 @@
 <html>
 <head>
 	<meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
-
-	<title>:: 다사랑 요양원에 오신 것을 환영합니다! ::</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=euc-kr" />
+	<title>:: 다사랑 노인요양원에 오신 것을 환영합니다! ::</title>
 	<link href="common/style.css" rel="stylesheet" type="text/css" />
+	<link href="common/styles_semantic.css" rel="stylesheet" type="text/css" />
 	<script language="javascript"  type="text/JavaScript" src="common/script.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 	<link
 		rel="stylesheet"
@@ -23,7 +27,7 @@
 
 <body>
 	<div style="position:absolute; top:413px; left:788px; z-index:9999;">
-		<a href="#" target="_blank"><img src="img/main_blog.png"></a>
+		<a href="http://blog.daum.net/dasalanglove" target="_blank"><img src="img/main_blog.png"></a>
 	</div>
   <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
@@ -32,6 +36,7 @@
     </td>
     <td background="img/main_bg_lt.jpg">&nbsp;</td>
   </tr>
+  <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <td valign="top">
     <form name="mainForm" method="post">
@@ -46,12 +51,13 @@
     <table border="0" cellspacing="0" cellpadding="0">
       <tr>
         <td width="34"></td>
-        <td width="265">
+        <td width="265" valign="top">
+<!--
 		<div id="no1" style="display:block;vertical-align:top;height:103px;overflow-y:hidden;">
-			<table width="100%" border="0" cellspacing="0" cellpadding="0" style="vertical-align:top;">
+			<table width="100%" border="1" cellspacing="0" cellpadding="0" style="vertical-align:top;">
 	          <tr>
 	            <td background="img/main_tab_line.gif">
-				<table border="0" cellspacing="0" cellpadding="0">
+				<table border="1" cellspacing="" cellpadding="0">
 	                    <tr>
 	                      <td><img src="img/main_tab01_on.gif"></td>
 	                      <td><a href="#"  onMouseOver="LayerSH('no1','hide');LayerSH('no2','show');return false;"><img src="img/main_tab02.gif"></a></td>
@@ -111,7 +117,30 @@
 
           	</table>
           </div>
-        </td>
+-->
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">공지사항</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">FAQ</a>
+  </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+  <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
+		<li style="margin-left:5px;margin-top:5px;"> <a href="page_5.html?1">다사랑요양원 홈페이지 오픈</a></li>
+		<li style="margin-left:5px;"><a href="page_5.html?1">코로나19로 인해 면회가 제한됩니다.</a></li><br>
+	</div>
+	<div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+		<li style="margin-left:5px;margin-top:5px;"> <a href="page_5.html?2">노인장기요양보험제도의 주요 내용은 ..</a> </li>
+		<li style="margin-left:5px;margin-top:5px;"> <a href="page_5.html?2">장기요양인정서가 무엇인가요?</a> </li>
+		<li style="margin-left:5px;margin-top:5px;"> <a href="page_5.html?2">장기요양보험의 혜택은 누구나 받을 수 ..</a> </li>
+	</div>
+</div>
+</div>
+       </td>
         <td width="20"></td>
         <td valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
           <tr>
@@ -124,7 +153,7 @@
             <td valign="top"><a href="/MainServlet?cmd=long_term"><img src="../../images/main/main_service_01.gif" border="0"></a><a href="/MainServlet?cmd=short_term"><img src="../../images/main/main_service_02.gif" border="0"></a><a href="/MainServlet?cmd=day_service"><img src="../../images/main/main_service_03.gif" border="0"></a></td>
           </tr -->
           <tr>
-            <td valign="top"><img src="img/main_service.gif" border="0"></a></td>
+            <td valign="top"><a href="page_2.html?1"><img src="img/main_service.gif" border="0"></a></td>
           </tr>
 
         </table></td>
